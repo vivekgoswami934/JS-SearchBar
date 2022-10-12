@@ -9,7 +9,11 @@ body {
 
 h1 {
   color: #eee;
+  margin: auto;
+  border-radius: 10px;
   margin-bottom: 30px;
+  background-color: black;
+  width: 40%;
 }
 
 .container {
@@ -57,14 +61,15 @@ h1 {
 }
 
 #searchBar {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
   height: 42px;
   border-radius: 8px;
   border: 1px solid #eaeaea;
   padding: 5px 10px;
   font-size: 26px;
   outline: none;
+  margin-left: 20px;
 }
 #searchWrapper {
   position: relative;
